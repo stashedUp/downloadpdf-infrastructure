@@ -29,20 +29,16 @@ jobs:
       with:
         terraform_version: 1.0.1
 
-    - name: Terraform Fmt
-      id: fmt
+    - name: Terraform Init on Dynamo
+      id: init
       run: cd dynamo && terraform init 
       continue-on-error: false
 
-    # - name: Terraform Init
-    #   id: init
-    #   run: terraform init
-    #   continue-on-error: true
 
-    # - name: Terraform Validate
-    #   id: validate
-    #   run: terraform validate -no-color
-    #   continue-on-error: true
+    - name: Terraform Validate
+      id: validate
+      run: terraform validate -no-color
+      continue-on-error: true
 
     # - name: Terraform Plan
     #   id: plan
