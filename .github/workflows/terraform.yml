@@ -31,7 +31,7 @@ jobs:
 
     - name: Terraform Fmt
       id: fmt
-      run: cd dynamo && terraform fmt -check -diff
+      run: cd dynamo && terraform plan -no-color
       continue-on-error: false
 
     # - name: Terraform Init
