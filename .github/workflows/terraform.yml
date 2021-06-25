@@ -31,7 +31,7 @@ jobs:
 
     - name: Terraform Init on Dynamo
       id: init
-      run: cd dynamo && terraform init 
+      run: erraform init 
       continue-on-error: false
 
 
