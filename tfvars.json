@@ -1,0 +1,9 @@
+{
+    "dns_domain": "downloadpdf.org",
+    "host_mapping" : {
+        "bible" : "bible.pdf",
+        "us-constitution" : "us-constitution.pdf"
+    },
+    "name": "DownloadPDF",
+    "hash_key" : "Host"
+}
