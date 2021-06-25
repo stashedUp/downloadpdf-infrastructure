@@ -61,6 +61,6 @@ resource "aws_route53_record" "hostname" {
   name = "${each.key}"
   zone_id = data.aws_route53_zone.lookup.id
   type    = "CNAME"
-  ttl     = "1"
+  ttl     = "60"
   records = ["stashedup.github.io"]
 }
