@@ -47,6 +47,6 @@ jobs:
 
     - name: Terraform Apply
       id: main
-      run: terraform apply -input=true -auto-approve
+      run: terraform apply -input=true -auto-approve -var-file="./tfvars.json"
       continue-on-error: false
 
