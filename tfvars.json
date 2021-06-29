@@ -2,7 +2,8 @@
     "dns_domain": "downloadpdf.org",
     "host_mapping" : {
         "bible" : "bible.pdf",
-        "us-constitution" : "us-constitution.pdf"
+        "us-constitution" : "us-constitution.pdf",
+        "mueller-report" : "mueller-report.pdf"
     },
     "name": "DownloadPDF",
     "hash_key" : "Host"
