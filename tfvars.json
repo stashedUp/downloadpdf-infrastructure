@@ -3,7 +3,8 @@
     "host_mapping" : {
         "bible" : "bible.pdf",
         "us-constitution" : "us-constitution.pdf",
-        "mueller-report" : "mueller-report.pdf"
+        "mueller-report" : "mueller-report.pdf",
+        "declaration-of-independence":"declaration-of-independence.pdf"
     },
     "name": "DownloadPDF",
     "hash_key" : "Host"
