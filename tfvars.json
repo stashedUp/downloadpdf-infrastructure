@@ -5,7 +5,8 @@
         "us-constitution" : "us-constitution.pdf",
         "mueller-report" : "mueller-report.pdf",
         "declaration-of-independence":"declaration-of-independence.pdf",
-        "the-book-of-mormon": "the-book-of-mormon.pdf"
+        "the-book-of-mormon": "the-book-of-mormon.pdf",
+        "daily-priority-matrix": "daily-priority-matrix.pdf"
     },
     "name": "DownloadPDF",
     "hash_key" : "Host"
